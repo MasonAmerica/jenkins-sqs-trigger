@@ -1,0 +1,12 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <l:ajax>
+        <div>
+          This plugin takes events from an AWS SQS queue and launches jobs.
+          Format:
+          <ul>
+            <li><pre>{"job": "name"}</pre></li>
+            <li><pre>{"job": "name", "parameters": [{"type": "", "name": "", "value": ""}]}</pre></li>
+          </ul>
+        </div>
+    </l:ajax>
+</j:jelly>
